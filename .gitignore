@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+# Entorno virtual
+muinar07_act3/
+.venv/
+venv/
+
+# Cachés de Python y Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Archivos de sistema macOS y VS Code
+.DS_Store
+.vscode/
+EOF
