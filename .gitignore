@@ -1,4 +1,3 @@
-cat << 'EOF' > .gitignore
 # Entorno virtual
 muinar07_act3/
 .venv/
@@ -12,4 +11,6 @@ __pycache__/
 # Archivos de sistema macOS y VS Code
 .DS_Store
 .vscode/
-EOF
+
+# Archivos de datos y configuraciones de Jupyter
+data/
